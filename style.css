@@ -1,3 +1,9 @@
 .navbar-fixed-top{
 	background-color: black;
 }
+
+body {
+	background-image: url("http://belgaum.saintclassified.in/uploads/italian-marble-f5b64.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
