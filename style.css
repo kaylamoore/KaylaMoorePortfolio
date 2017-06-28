@@ -1,5 +1,6 @@
 body {
 	background-color: #F4F4F4;
+	font-family: 'NovecentowideLightBold', 'Helvetica', 'Arial', sans-serif;
 }
 
 .navbar-default {
@@ -8,9 +9,8 @@ body {
 
 .navbar-nav {
 	letter-spacing: 1.5px;
-	font-family: 'NovecentowideLightBold', 'Helvetica', 'Arial', sans-serif;
-}
 
+}
 .navbar-nav a:hover{
 	color: #B27F87 !important;	
 		-webkit-transition: color 0.2s ease;
@@ -19,3 +19,25 @@ body {
 		-o-transition: color 0.2s ease;
 		transition: color 0.2s ease;
 }
+
+h3 {
+	opacity: .3;
+	letter-spacing: 1.5px;
+	animation-duration: 5s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 50%;
+  }
+}
+
+}
+
