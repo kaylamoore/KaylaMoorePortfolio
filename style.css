@@ -157,3 +157,24 @@ button .navbar-toggle .collapsed #menu{
 
 }
 
+.wrap {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+}
+
+.wrapsub {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.social {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.social a {
+    text-decoration: none;
+    font-color: black;
+}
